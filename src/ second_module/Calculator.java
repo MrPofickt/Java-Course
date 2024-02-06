@@ -13,7 +13,6 @@ public class Calculator {
             char operation = scanner.next().charAt(0);
 
             if (operation == 's') {
-                System.out.println("Выход из программы.");
                 break;
             }
 
@@ -36,7 +35,7 @@ public class Calculator {
                             result /= operand2;
                         } else {
                             System.out.println("Ошибка: деление на ноль!");
-                            return;
+
                         }
                         break;
                     default:
